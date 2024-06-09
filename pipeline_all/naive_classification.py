@@ -1,7 +1,7 @@
-from data_preprocess.naive_classification.pipeline import (
+from preprocessing.naive_classification.pipeline import (
     NaiveClassificationPreprocess
 )
 
 
-def NaiveClassificationPipeline():
-    NaiveClassificationPreprocess()
+def NaiveClassificationPipeline(config):
+    NaiveClassificationPreprocess(config)

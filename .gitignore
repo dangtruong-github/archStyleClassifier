@@ -2,6 +2,9 @@
 /data
 *.sh
 config.ini
+requirements.yml
+*.txt
+!styles_used.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
